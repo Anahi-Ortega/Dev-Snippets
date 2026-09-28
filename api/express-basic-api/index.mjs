@@ -23,7 +23,7 @@ app.use(async(req, res, next) => {
 });
 
 app.get('/', async function (req,res){
-    res.json("Hellow World!");
+    res.json("Hello World!");
 });
 
 app.listen(3000, () => {
